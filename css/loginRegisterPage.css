@@ -1,0 +1,148 @@
+body{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.navbar {
+  background-color: #000;
+  position: relative;
+  display: flex;
+  z-index: 999;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar button{
+  background: none;
+  border: none;
+  padding: 5px;
+  margin-right: 20px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  font-size: 25px;
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+
+.navbar ul ul li {
+  display: block;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+  background-color: #555;
+}
+
+.navbar button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: auto;
+  border-radius: 10px;
+}
+
+.navbar button:hover {
+  background-color: #5ad05e;
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+}
+
+.formregist{
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: #555;
+  padding: 50px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 400px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+
+.formregist label{
+  font-size: 20px;
+}
+
+.formregist input{
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+.formregist button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.formregist button:hover {
+  background-color: #5ad05e;
+}
+
+.formregist a{
+  justify-content: center;
+  align-items: center;
+}
+
+#haveAccount{
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: white;
+  margin-left: 10px;
+}
+
+#haveAccount:hover{
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #4CAF50;
+  margin-left: 10px;
+}
